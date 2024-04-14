@@ -13,3 +13,23 @@ http://www.6502.org/tutorials/6502opcodes.html
 https://skilldrick.github.io/easy6502/ 
 
 
+### Useful doc for myself
+
+# Flag register
+0bvvvv_vvvv
+  |||| ||||-> Carry(1)
+  |||| |||
+  |||| |||-> Zero(1)
+  |||| ||
+  |||| ||-> IRQ disable(1)
+  |||| ||
+  |||| |-> Decimal mode(1)
+  |||| |
+  ||||-> Brk command (1)
+  |||
+  |||-> Nothing
+  ||
+  ||-> overflow flag(1)
+  |
+  |-> negative flag(1)
+  
