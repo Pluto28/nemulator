@@ -24,7 +24,7 @@ https://skilldrick.github.io/easy6502/
   |||| ||-> IRQ disable(1)
   |||| ||
   |||| |-> Decimal mode(1)
-  |||| |
+  ||||
   ||||-> Brk command (1)
   |||
   |||-> Nothing
