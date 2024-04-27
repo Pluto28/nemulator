@@ -33,3 +33,12 @@ https://skilldrick.github.io/easy6502/
   |
   |-> negative flag(1)
   
+
+# Page
+    The 6502 divides its memory address into 256 pages, each having 256 bytes 
+of memory.
+    Then the proccessor has access to a memory space of 256\*256=65356 bytes 
+of memory in total. The most important pages are:
+    * Page 0: Contains usually referenced variables to save space in program code
+    * Page 1: Hardwired by the processor to be used as the stack
+    * last page: The last 6 bytes of this page contain special addresses
